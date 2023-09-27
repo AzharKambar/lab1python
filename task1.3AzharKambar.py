@@ -4,5 +4,5 @@ try:
 a=int(input())
 #вывод трех последовательных чисел в отдельном списке
 print(a,a+1,a+2,sep='\n')
-except ValueError :
+except ValueError:
 print("Ввод данных неверный")
