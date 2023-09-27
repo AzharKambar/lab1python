@@ -1,3 +1,5 @@
+#код в котором может возникнуть исключение помещено в try
+try:
 #вводим значение
 num1=int(input("Enter the number: "))
 #бинарный сдвиг влево
@@ -8,3 +10,5 @@ if num2==0:
  #иначе выводим результат
 else:
     print(f"The result of << is {num2}")
+except ValueError:
+print("Ввод данных неверный")
